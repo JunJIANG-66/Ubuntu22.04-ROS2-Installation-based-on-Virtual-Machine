@@ -140,6 +140,9 @@ ROS2 humble:
 ```
 sudo apt install ros-foxy-gazebo-ros-pkgs
 ```
+
+Or, see https://classic.gazebosim.org/tutorials?tut=ros2_installing.
+
 ### Setup A Catkin Workspace
 These instructions require the use of the catkin build system.
 
