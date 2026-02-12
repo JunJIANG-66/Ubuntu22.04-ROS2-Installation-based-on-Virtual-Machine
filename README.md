@@ -83,7 +83,7 @@ Install Ubuntu 20.04.1 LTS in Virtual Machine: Click on Start to start the insta
 
 ## III. Install ROS
 
-See [http://wiki.ros.org/noetic/Installation/Ubuntu](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
+See https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html.
 
 3.1 Setup your computer to accept software from packages.ros.org.
 ```
