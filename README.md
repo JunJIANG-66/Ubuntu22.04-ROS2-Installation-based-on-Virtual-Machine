@@ -1,6 +1,6 @@
 # Ubuntu22.04-ROS2-Installation-based-on-Virtual-Machine
 
-## I. Download Ubuntu 20.04
+## I. Download Ubuntu 22.04
 Download Ubuntu Desktop from the official web site (https://ubuntu.com/download/desktop).
 
 First, go to the official web site and click **'check out our alternative downloads'**.
