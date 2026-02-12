@@ -81,7 +81,7 @@ Install Ubuntu 20.04.1 LTS in Virtual Machine: Click on Start to start the insta
 > [!TIP]
 > Full screen: Devices ->Insert Guest Additions CD image. And reboot Virtual System.
 
-## III. Install ROS
+## III. Install ROS2
 
 See https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html.
 
