@@ -136,9 +136,9 @@ source devel/setup.bash
 ## V. Install gazebo_ros_pkgs
 The gazebo_ros_pkgs packages are available in:
 
-ROS Noetic:
+ROS2 humble:
 ```
-sudo apt-get install ros-noetic-gazebo-ros-pkgs ros-noetic-gazebo-ros-control
+sudo apt install ros-foxy-gazebo-ros-pkgs
 ```
 ### Setup A Catkin Workspace
 These instructions require the use of the catkin build system.
