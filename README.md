@@ -26,7 +26,7 @@ VirtualBox supports a long list of host and guest operating systems. A host OS i
 
 Go to the official web site (Link: https://www.virtualbox.org/wiki/Downloads) to download the VirtualBox installer for your operating system. See in the figure below:
 
-![Image text](https://github.com/cyiwen316/Virtual-Machine-Installation/blob/main/Image/VirtualBox.png)
+![Image text](Image/VirtualBox.png)
 
 ### Run the installer and define the installation options
 
