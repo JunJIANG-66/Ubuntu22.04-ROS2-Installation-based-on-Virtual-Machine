@@ -13,7 +13,7 @@ Then, go down and click **'Ubuntu 22.04 LTS (Jammy Jellyfish)'**.
 
 Finally, download **64-bit PC (AMD64) desktop image**.
 
-![Image text](https://github.com/cyiwen316/ROS-Installation-based-on-Virtual-Machine/blob/main/Image/Ubuntu20.04-4.png)
+![Image text](Image/Ubuntu22.04-3.png)
 
 
 ## II. Download VirtualBox
