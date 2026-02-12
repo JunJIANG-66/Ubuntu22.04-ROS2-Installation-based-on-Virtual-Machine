@@ -11,7 +11,7 @@ Then, go down and click **'Ubuntu 22.04 LTS (Jammy Jellyfish)'**.
 
 ![Image text](Image/Ubuntu22.04-2.png)
 
-Finally, download **64-bit PC (AMD64) desktop image**.
+Finally, download **'64-bit PC (AMD64) desktop image'**.
 
 ![Image text](Image/Ubuntu22.04-3.png)
 
