@@ -85,33 +85,11 @@ Install Ubuntu 20.04.1 LTS in Virtual Machine: Click on Start to start the insta
 
 See https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html.
 
-3.1 Setup your computer to accept software from packages.ros.org.
-```
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-```
-
-3.2 Set up your keys
-```
-sudo apt install curl # if you haven't already installed curl
-curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-```
-
-3.3 Installation
-First, make sure your Debian package index is up-to-date:
-```
-sudo apt update
-```
-Now pick how much of ROS you would like to install.
-**Desktop-Full Install: (Recommended)** : Everything in **Desktop** plus 2D/3D simulators and 2D/3D perception packages
-```
-sudo apt install ros-noetic-desktop-full
-```
-
-3.4 Environment setup
+3.1 Environment setup
 
 You must source this script in every **bash** terminal you use ROS in.
 ```
-source /opt/ros/noetic/setup.bash
+source /opt/ros/humble/setup.bash
 ```
 It can be convenient to automatically source this script every time a new shell is launched. These commands will do that for you.
 
@@ -120,7 +98,7 @@ It can be convenient to automatically source this script every time a new shell 
 > If you have more than one ROS distribution installed, ~/.bashrc must only source the setup.bash for the version you are currently using.
 
 ```
-echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
