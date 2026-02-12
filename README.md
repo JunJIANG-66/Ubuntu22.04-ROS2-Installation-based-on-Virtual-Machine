@@ -7,7 +7,7 @@ First, go to the official web site and click **'check out our alternative downlo
 
 ![Image text](Image/Ubuntu22.04-1.png)
 
-Then, go down and click **'Ubuntu 20.04 LTS (Focal Fossa)'**.
+Then, go down and click **'Ubuntu 22.04 LTS (Jammy Jellyfish)'**.
 
 ![Image text](Image/Ubuntu22.04-2.png)
 
