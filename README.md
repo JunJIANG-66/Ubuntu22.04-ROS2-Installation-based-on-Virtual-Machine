@@ -201,7 +201,7 @@ source ~/.bashrc
 cd ~/catkin_ws/src
 git clone https://github.com/cyiwen316/gazebo_robotino_ros_pkg.git
 cd ~/catkin_ws
-catkin_make
+colcon build --symlink-install
 ```
 
 ```
