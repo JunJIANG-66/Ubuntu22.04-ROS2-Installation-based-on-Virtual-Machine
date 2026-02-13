@@ -143,7 +143,7 @@ sudo apt install ros-humble-gazebo-ros-pkgs
 
 ### Setup A TurtleBot3 Simulation Workspace
 
-Install Dependent ROS 2 Packages:
+#### Install Dependent ROS 2 Packages:
 
 Install Cartographer
 ```
@@ -157,6 +157,7 @@ sudo apt install ros-humble-navigation2
 sudo apt install ros-humble-nav2-bringup
 ```
 
+#### Install the required TurtleBot3 Packages.
 
 These instructions require the use of the catkin build system.
 
@@ -164,13 +165,17 @@ If you do not have a catkin workspace setup, try the following commands:
 ```
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
-catkin_init_workspace
+git clone -b humble https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3.git
+sudo apt install python3-colcon-common-extensions
 cd ~/catkin_ws
 catkin_make
 ```
 Then add to your **.bashrc** file a source to the setup scripts:
 ```
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ## VI. Install Gazabo_robotino
