@@ -170,7 +170,7 @@ git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3.git
 sudo apt install python3-colcon-common-extensions
 cd ~/catkin_ws
-catkin_make
+colcon build --symlink-install
 ```
 Then add to your **.bashrc** file a source to the setup scripts:
 ```
@@ -201,7 +201,7 @@ source ~/.bashrc
 cd ~/catkin_ws/src
 git clone https://github.com/cyiwen316/gazebo_robotino_ros_pkg.git
 cd ~/catkin_ws
-colcon build --symlink-install
+catkin_make
 ```
 
 ```
