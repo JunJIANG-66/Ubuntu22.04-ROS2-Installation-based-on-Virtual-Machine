@@ -140,6 +140,7 @@ ROS2 humble install gazebo classic:
 ```
 sudo apt install ros-humble-gazebo-ros-pkgs
 ```
+<!--
 Make sure that **XDG_SESSION_TYPE** is Xorg:
 ```
 echo $XDG_SESSION_TYPE
@@ -159,7 +160,7 @@ Run
 sudo gedit /etc/gdm3/custom.conf
 ```
 And change **#WaylandEnable=false** to **WaylandEnable=false**.
-
+-->
 
 ### Setup A TurtleBot3 Simulation Workspace
 #### Install TurtleBot3:
