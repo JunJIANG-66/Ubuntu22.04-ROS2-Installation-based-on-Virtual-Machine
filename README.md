@@ -136,10 +136,8 @@ source devel/setup.bash
 ## V. Install gazebo_ros_pkgs
 The gazebo_ros_pkgs packages are available in:
 
-ROS2 humble gazebo:
+ROS2 humble install gazebo classic:
 ```
-sudo apt update
-sudo apt install gazebo libgazebo-dev
 sudo apt install ros-humble-gazebo-ros-pkgs
 ```
 
