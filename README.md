@@ -178,6 +178,28 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
+#### Launch Simulation World
+Three simulation environments are prepared for TurtleBot3. Please select one of these environments to launch Gazebo.
+
+1. Empty World
+```
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo empty_world.launch.py
+```
+
+2. TurtleBot3 World
+```
+export TURTLEBOT3_MODEL=waffle
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
+
+3. TurtleBot3 House
+```
+export TURTLEBOT3_MODEL=waffle_pi
+ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
+```
+
+
 ## VI. Install Gazabo_robotino
 Install gazebo on your computer :
 ```
