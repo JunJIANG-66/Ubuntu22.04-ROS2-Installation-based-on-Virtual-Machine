@@ -144,7 +144,10 @@ sudo apt install ros-humble-gazebo-ros-pkgs
 ```
 sudo snap install gazebo --channel=citadel/beta
 ```
-
+You can then test it with
+```
+gazebo.gz gazebo shapes.sdf 
+```
 
 
 <!--
