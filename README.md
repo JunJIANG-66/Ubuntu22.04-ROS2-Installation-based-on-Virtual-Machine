@@ -141,7 +141,23 @@ ROS2 humble:
 sudo apt install ros-humble-gazebo-ros-pkgs
 ```
 
-### Setup A Catkin Workspace
+### Setup A TurtleBot3 Simulation Workspace
+
+Install Dependent ROS 2 Packages:
+
+Install Cartographer
+```
+sudo apt install ros-humble-cartographer
+sudo apt install ros-humble-cartographer-ros
+```
+
+Install Navigation2
+```
+sudo apt install ros-humble-navigation2
+sudo apt install ros-humble-nav2-bringup
+```
+
+
 These instructions require the use of the catkin build system.
 
 If you do not have a catkin workspace setup, try the following commands:
