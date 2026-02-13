@@ -140,6 +140,13 @@ ROS2 humble install gazebo classic:
 ```
 sudo apt install ros-humble-gazebo-ros-pkgs
 ```
+
+```
+sudo snap install gazebo --channel=citadel/beta
+```
+
+
+
 <!--
 Make sure that **XDG_SESSION_TYPE** is Xorg:
 ```
