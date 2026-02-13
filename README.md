@@ -142,6 +142,10 @@ sudo apt install ros-humble-gazebo-ros-pkgs
 ```
 
 ### Setup A TurtleBot3 Simulation Workspace
+#### Install TurtleBot3:
+```
+sudo apt install ros-humble-turtlebot3*
+```
 
 #### Install Dependent ROS 2 Packages:
 
