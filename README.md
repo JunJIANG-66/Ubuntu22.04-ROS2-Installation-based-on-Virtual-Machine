@@ -164,6 +164,19 @@ Change directory to **/catkin_ws** and Use rosdep to automatically install the s
 cd ..
 rosdep install -y -r -q --from-paths src --ignore-src --rosdistro humble
 ```
+Install colcon:
+```
+sudo apt install python3-colcon-common-extension
+```
+And then, build the work space:
+```
+colcon build
+```
+You can test the gazebo by run:
+```
+gazebo.gz gazebo
+```
+
 
 ```
 sudo snap install gazebo --channel=citadel/beta
