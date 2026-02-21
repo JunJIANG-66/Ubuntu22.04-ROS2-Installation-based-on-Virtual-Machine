@@ -113,7 +113,7 @@ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator 
 
 Before you can use many ROS tools, you will need to initialize rosdep. rosdep enables you to easily install system dependencies for source you want to compile and is required to run some core components in ROS. If you have not yet installed **rosdep**, do so as follows.
 ```
-sudo apt install python3-rosdep
+sudo apt install python3-rosdep2
 ```
 
 With the following, you can initialize rosdep.
@@ -121,7 +121,7 @@ With the following, you can initialize rosdep.
 sudo rosdep init
 rosdep update
 ```
-
+<!--
 ## IV. Create a ROS Workspace
 Let's create and build a catkin workspace:
 ```
@@ -132,13 +132,37 @@ cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
 ```
-
-## V. Install gazebo_ros_pkgs
+-->
+## IV. Install gazebo_ros_pkgs
 The gazebo_ros_pkgs packages are available in:
 
-ROS2 humble install gazebo classic:
+Install Gazebo Fortress dependencies:
 ```
-sudo apt install ros-humble-gazebo-ros-pkgs
+sudo apt-get install ignition-fortress libignition-cmake2-dev ros-humble-ros-gz
+```
+In stall pip and git:
+```
+sudo apt install python3-pip
+sudo apt install git
+```
+Install xmacro (xml macro tool for sdf):
+```
+pip install xmacro
+```
+Clone all the packages in **/catkin_ws/src**:
+```
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+git clone https://github.com/robomaster-oss/rmoss_interfaces -b humble
+git clone https://github.com/robomaster-oss/rmoss_core -b humble
+git clone https://github.com/robomaster-oss/rmoss_gazebo -b humble
+git clone https://github.com/robomaster-oss/rmoss_gz_resources -b humble --depth=1
+git clone https://github.com/robomaster-oss/rmua19_gazebo_simulator -b humble
+```
+Change directory to **/catkin_ws** and Use rosdep to automatically install the system dependencies required for a ROS 2 project.:
+```
+cd ..
+rosdep install -y -r -q --from-paths src --ignore-src --rosdistro humble
 ```
 
 ```
