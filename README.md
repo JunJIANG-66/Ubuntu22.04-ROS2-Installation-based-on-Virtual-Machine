@@ -177,11 +177,7 @@ You can test the gazebo by run:
 gazebo.gz gazebo
 ```
 
-
-```
-sudo snap install gazebo --channel=citadel/beta
-```
-You can then test it with
+Or test it with
 ```
 gazebo.gz gazebo shapes.sdf 
 ```
